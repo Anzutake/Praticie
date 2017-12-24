@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>@SYCH</title>
+	 </head>
+ <body>
+ 
+    <script>
+/*Составьте массив дней недели. С помощью цикла for выведите все дни
+недели, а текущий день выведите курсивом. Текущий день должен храниться в
+переменной day.*/
+
+var arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+var newArr = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+var i = 0;
+var data = new Date();
+var day = newArr[data.getDay()];
+
+for (i; i < arr.length; i++){
+ if (arr[i] == day){
+ document.write("<b>" + arr[i] + "</b>" + "<br>");
+ }else {
+ document.write(arr[i] + "<br>");
+ };
+};
+    </script>
+	
+ </body>
+</html>

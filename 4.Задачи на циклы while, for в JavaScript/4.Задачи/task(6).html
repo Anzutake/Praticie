@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>@SYCH</title>
+	 </head>
+ <body>
+ 
+    <script>
+/*Составьте массив дней недели. С помощью цикла for выведите все дни
+недели, а выходные дни выведите жирным.*/
+
+var arr = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб', 'вс'];
+var i = 0;
+
+for (i; i < arr.length; i++){
+ if (arr[i] == 'сб' || arr[i] == 'вс'){
+ document.write("<b>" + arr[i] + "</b>" + "<br>");
+ }else {
+ document.write(arr[i] + "<br>");
+ };
+};
+
+    </script>
+	
+ </body>
+</html>

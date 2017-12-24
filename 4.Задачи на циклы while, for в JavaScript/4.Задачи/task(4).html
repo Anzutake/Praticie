@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+     <title>@SYCH</title>
+	 </head>
+ <body>
+ 
+    <script>
+/*Дан массив числами, например: [10, 20, 30, 50, 235, 3000]. Выведите на
+экран только те числа из массива, которые начинаются на цифру 1, 2 или 5.*/
+
+var arr = ["10", "20", "30", "50", "235", "3000"];
+var i = 0;
+var c, q;
+
+
+for (i; i < arr.length; i++){
+c = arr[i];
+q = c.slice(0, 1);
+if (q == 1 || q == 2 || q == 5){
+document.write(arr[i] + "<br>");
+};
+};
+
+    </script>
+	
+ </body>
+</html>
